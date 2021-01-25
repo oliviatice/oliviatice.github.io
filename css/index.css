@@ -1,0 +1,57 @@
+.navbar {
+    background: linear-gradient(90deg, rgba(253,217,199,1) 0%, rgba(248,182,187,1) 33.33%, rgba(154,194,186,1) 66.66%, rgba(137,197,216,1) 100%);
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-family: 'new-spirit', 'Century Gothic', sans-serif;}
+
+.navbar a {font-size: 1.5em;}
+
+.navbar-brand {font-weight: 500;}
+
+.nav-link {color:white !important;}
+
+.active {background-color:#9AC2BA !important;}
+
+.jumbotron {
+    background-color:#FDD9C7;
+    background-size: cover; 
+    background-position: top;
+    margin: 20px;
+    text-align: center;}
+
+.circle img {
+    border-radius: 50%;
+    
+    margin-bottom: 2em;}
+
+.btn {
+    color: white;
+    background-color:#F8B6BB;
+    border:none;
+    border-radius: 30px;
+    font-family: new-spirit, century gothic, sans-serif;
+    font-size: 14pt;
+    padding: 10px;
+    width: 7em;}
+
+.btn:hover {
+    background-color:#89C5D8;
+    font-weight: 500;}
+
+#btn-alt {background-color:#9AC2BA;}
+
+.card-title {font-size: 4em;}
+
+h1 {font-family:  Freehouse, sans-serif;}
+
+p {font-family: Century-Gothic, sans-serif;}
+
+a {color:white;}
+
+
+**NOTES**
+Hex Colors
+Beige: #FDD9C7
+Pink: #F8B6BB
+Green: #9AC2BA
+Blue: #89C5D8
