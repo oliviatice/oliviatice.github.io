@@ -31,7 +31,7 @@ body, wrapper {
 
 .container {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
     grid-gap: 2vmin;
     margin-top: 3vmin;
     margin-bottom: 2vmin;  
@@ -51,13 +51,18 @@ body, wrapper {
     background-color:#89C5D8;
     font-weight: 500;}
 
-.btn-primary:active {
+.btn:active {
     background-color:#89C5D8 !important;
     outline: none !important;
     box-shadow: none !important;
 
 }
-#btn-alt {background-color:#9AC2BA; width: 7em;}
+
+#btn-alt {background-color:#89C5D8; width: 7em;}
+
+#btn-alt:hover {background-color:#F8B6BB;}
+
+#btn-alt:active {background-color:#F8B6BB !important;}
 
 
 h1 {font-family: 'freehouse', 'sans-serif'; font-size: 5vmin;}
@@ -73,4 +78,3 @@ footer {
    }
 
 .footer-text {font-family: 'century-gothic', 'sans-serif'}
-
