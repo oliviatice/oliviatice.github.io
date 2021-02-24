@@ -201,9 +201,17 @@ border-radius: 15px;
 }
 
 iframe {
-    
-    margin:auto;
+    margin:0,auto;
     text-align: center;
+}
+
+@media only screen (max-width: 360px){
+    iframe {
+        
+        text-align: center;
+        margin: 0 auto;
+        max-width: 310px;
+    }
 }
 .surprisediv {
     
