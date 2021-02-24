@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="description" content="Tribute Page">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tribute Page</title>
+    <link rel="stylesheet" href="https://use.typekit.net/bju4ywi.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/css/survey_form.css">
+</head>
+    
+    
+<body>
+<wrapper class="d-flex flex-column"> 
+<nav class="navbar navbar-expand-md navbar-dark">
+    <a href="../index.html" class="navbar-brand text-white">Olivia Tice</a>
+    <button type="button" class="navbar-toggler border-0" data-toggle="collapse" data-target="#navbarCollapse">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarCollapse">
+        <div class="navbar-nav">
+            <div class="nav-item dropdown">
+                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">projects</a>
+                <div class="dropdown-menu text-center">
+                    <a href="../webdesign.html" class="dropdown-item bg-light active">Web Design</a>
+                    <a href="../javascript.html" class="dropdown-item bg-light">JavaScript</a>
+                    <a href="../libraries.html" class="dropdown-item bg-light">Front End Libraries</a>
+                    <a href="../visualization.html" class="dropdown-item bg-light">Data Visualization</a>
+                    <a href="../apis.html" class="dropdown-item bg-light">APIs/Microservices</a>
+                    <a href="../qa.html" class="dropdown-item bg-light">Quality Assurance</a>
+                    <a href="../computing.html" class="dropdown-item bg-light">Python Computing</a>
+                    <a href="../dataanalysis.html" class="dropdown-item bg-light">Python Data Analysis</a>
+                    <a href="../infosecurity.html" class="dropdown-item bg-light">Information Security</a>
+                    <a href="../machinelearning.html" class="dropdown-item bg-light">Machine Learning</a>
+                </div>
+            </div>                   
+        </div>
+    </div>
+</nav>
+<div class="background">
+<main id="main" class="flex-fill">
+<header>
+    <h1 id="title">Anime Survey Form</h1>
+    <p id="description">Thank you for taking this survey!</p>
+    
+</header>
+<form id="survey-form">
+    <div class="form-group">
+        <label id="name-label" for="name" >Name:</label>
+        <input id="name" class="input-box" type="text" placeholder="Enter your name" required>
+    </div>
+    
+    <div class="form-group">
+        <label id="email-label" for="email">Email:</label>
+        <input id="email" class="input-box" type="email" placeholder="Enter your email" required>
+    </div>
+    
+    <div class="form-group">
+        <label id="number-label" for="number">Age:</label>
+        <input id="number" class="input-box" type="number" placeholder="Age" min="5" max="99">
+    </div>
+    
+    <div class='form-group'>
+        <label for="dropdown">What is your favorite genre of anime?</label><br>
+            <select class="input-box" id="dropdown">
+                <option disabled selected value>Select favorite genre</option>
+                <option>Action/Adventure</option>
+                <option>SciFi</option>
+                <option>Fantasy</option>
+                <option>Slice of Life</option>
+                <option>Romance</option>
+                <option>Comedy</option>
+                <option>Mecha</option>
+                <option>Horror/Thriller</option>       
+            </select>
+    </div>
+    
+    <div class="form-group">
+        <fieldset>
+            <legend>How often do you watch anime?</legend>
+                <input id="one" type="radio" name="items" value="often">
+                    <label for="one">Often</label><br>
+                <input id="two" type="radio" name="items" value="sometimes">
+                    <label for="two">Sometimes</label><br>
+                <input id="three" type="radio" name="items" value="rarely">
+                    <label for="three">Rarely</label>
+        </fieldset>
+    </div>
+    
+    <div class="form-group">
+        <fieldset>
+            <legend>Have you watched any of these popular anime?<br> (select all that apply)</legend>
+                <input  id="a" type="checkbox" name="shows" value="Attack on Titan">
+                    <label for="a">Attack on Titan</label><br>
+
+                <input id="b" type="checkbox" name="shows" value="Death Note">
+                    <label for="b">Death Note</label><br>
+
+                <input id="c" type="checkbox" name="shows" value="HunterxHunter">
+                    <label for="c">Hunter x Hunter</label><br>
+
+                <input id="d" type="checkbox" name="shows" value="SAO">
+                    <label for="d">Sword Art Online</label><br>
+
+                <input id="e" type="checkbox" name="shows" value="Fruits Basket">
+                    <label for="e">Fruits Basket</label><br>
+
+                <input id="f" type="checkbox" name="shows" value="Fullmetal Alchemist">
+                    <label for="f">Fullmetal Alchemist</label><br>
+
+                <input id="g" type="checkbox" name="shows" value="My Hero Academia">
+                    <label for="g">My Hero Academia</label><br>
+
+                <input id="g" type="checkbox" name="shows" value="Tokyo Ghoul">
+                    <label for="g">Tokyo Ghoul</label><br>
+
+                <input id="h" type="checkbox" name="shows" value="Haruhi Suzumiya">
+                    <label for="h">The Melancholy of Haruhi Suzumiya</label><br>
+
+                <input id="i" type="checkbox" name="shows" value="Your Lie in April">
+                    <label for="i">Your Lie in April</label><br>
+
+                <label for="other">Other:</label>
+                    <input id="other" type="text" name='shows' placeholder="please specify">
+            </fieldset><br>
+    </div>
+    
+    <div class="form-group">
+        <textarea placeholder="Questions or Comments?" class="input-textarea"></textarea><br>
+    
+    </div>
+    
+    <div class="form-group">
+        <button id="submit" type="submit">Submit</button>
+    </div>     
+    <div>
+        <p id="image-credit">(background image credit: <a href="https://yurucamp.jp/" target="_blank">Yurucamp website</a>)</p>
+    </div> 
+</form>
+
+</main>
+</div>
+<footer class="p-4">
+    <div class="row align-items-center">
+        <div class="col-md-6">
+            <p class="text-muted my-auto"> &copy; 2021 Olivia Tice</p>
+        </div>
+        <div class="col-md-6 text-md-right">
+            <a href="mailto:olivia.a.tice@gmail.com" class="text-muted footer-text">Email</a> 
+            <span class="text-muted mx-2">|</span> 
+            <a href="https://www.linkedin.com/in/oliviatice/" target="_blank" class="text-muted footer-text">Follow</a>
+        </div>
+    </div>
+</footer>
+</wrapper>
+<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+</body>
+
+</html>
