@@ -86,11 +86,7 @@ section {
        padding-top: 5%;}
 } 
 
-.slide {
-    
-    max-height: 500px;;
-    
-}
+
 img {   
 border-radius: 15px;
 }
@@ -151,11 +147,12 @@ border-radius: 15px;
 .dot-container {
     
     margin-top: -35px;
+    
 }
 .dot {
   cursor: pointer;
-  height: 15px;
-  width: 15px;
+  height: 10px;
+  width: 10px;
   margin: 0 2px;
   background-color: #fdd9c7;
   border-radius: 50%;
@@ -203,6 +200,11 @@ border-radius: 15px;
 
 }
 
+iframe {
+    
+    margin:auto;
+    text-align: center;
+}
 .surprisediv {
     
     padding: 20px;
